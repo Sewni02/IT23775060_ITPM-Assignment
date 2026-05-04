@@ -101,7 +101,7 @@ python IT23775060.py --excel "IT23775060.xlsx" --url "https://www.pixelssuite.co
 
 ## Checking Results
 
-1. After the script finishes, go to `D:\test_automation`
+1. After the script finishes, go to `IT23775060_ITPM-Assignment-main`
 2. Reopen **Assignment 1 - Test cases.xlsx**
 3. Check columns **E (Actual output)** and **F (Status)**
    - **Pass** = Actual output matches Expected output
