@@ -10,7 +10,7 @@ The automation script inputs Singlish text, captures the translation output, and
 
 ## Folder Structure
 ```
-D:\test_automation\
+IT23775060_ITPM-Assignment-main
 │
 ├── IT23775060.py          # Main Playwright automation script
 ├── IT23775060.xlsx  # Test case data file
@@ -34,15 +34,14 @@ D:\test_automation\
 ## Setup Instructions
 
 ### Step 1 – Extract the Project
-- Save the provided ZIP file to your **D: drive**
-- Extract it → folder should be: `D:\test_automation`
+- Extract it → folder should be: `IT23775060_ITPM-Assignment-main`
 
 ### Step 2 – Open Command Prompt
 - Press `Win + R` → type `cmd` → press Enter
 
 ### Step 3 – Navigate to Project Folder
 ```
-cd /d D:\test_automation
+IT23775060_ITPM-Assignment-main
 ```
 
 ### Step 4 – Install Dependencies (One-Time)
@@ -80,10 +79,10 @@ Make sure **Wrap Text** is ON: Home → Wrap Text
 
 ## How to Run the Script
 
-From `D:\test_automation` in Command Prompt, run:
+From `IT23775060_ITPM-Assignment-main` in Command Prompt, run:
 
 ```
-python test_automation.py --excel "test_automation/Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+python IT23775060.py --excel "IT23775060.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 ```
 
 ### Command Arguments Explained
